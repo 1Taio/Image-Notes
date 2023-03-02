@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:Image_Notes"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <Canvas Background="#FFF38989">
+        <Image x:Name="imageDisplay" Height="156" Canvas.Left="302" Canvas.Top="122" Width="196"/>
+        <Button x:Name="btnDisplayImage" Content="Disaply Image???" Height="65" Canvas.Left="584" Canvas.Top="359" Width="206" Click="btnDisplayImage_Click"/>
+    </Canvas>
 </Window>
